@@ -63,7 +63,6 @@ describe('ДЗ 1 - функции', () => {
       expect(result()).toBe(3);
     });
   });
-
   describe('returnArgumentsArray', () => {
     it('должна возвращать переданные аргументы в виде массива', () => {
       expect(returnArgumentsArray(1, 2, 3)).toEqual([1, 2, 3]);
